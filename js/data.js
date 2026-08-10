@@ -1,6 +1,7 @@
 window.ACTIVITY_DATA = {
   surveyUrl: "https://tideclub26.feishu.cn/share/base/form/shrcnrjxqX99rMGYaHx9V4DgSjf",
   submissionUrl: "https://tideclub26.feishu.cn/share/base/form/shrcnsWdFYJh30lIFqyLsBxeOIc",
+  questionUrl: "https://tideclub26.feishu.cn/share/base/form/shrcn9BKsQpnZrCuoIMRJpSJWzg",
   zh: {
     lang: "zh-CN",
     pageTitle: "AI探索：学生创新作品展示",
@@ -51,6 +52,18 @@ window.ACTIVITY_DATA = {
         { label: "学术素养", value: "Dean's List" }
       ]
     },
+    faqLink: {
+      eyebrow: "常见问题",
+      title: "活动常见问题",
+      body: "查看活动参与、材料准备、提交时间与评选方式等常见问题。",
+      button: "查看常见问题"
+    },
+    question: {
+      eyebrow: "FAQ 提问",
+      title: "提交你的问题",
+      body: "如果你对活动安排或作品提交仍有疑问，请通过下方问卷告诉我们。",
+      button: "提交 FAQ 问题"
+    },
     survey: {
       eyebrow: "参与意向",
       title: "告诉我们你的想法",
@@ -69,7 +82,36 @@ window.ACTIVITY_DATA = {
     ],
     footerBrand: "AI探索：学生创新作品展示",
     footerSchool: "香港中文大学（深圳）人工智能学院",
-    footerNote: "AI Exploration · Learning by Creating"
+    footerNote: "AI Exploration · Learning by Creating",
+    faqPage: {
+      pageTitle: "常见问题 | AI探索：学生创新作品展示",
+      eyebrow: "AI探索：学生创新作品展示",
+      title: "常见问题",
+      secondaryTitle: "Frequently Asked Questions",
+      back: "返回活动首页",
+      intro: "以下信息根据当前公布的活动安排整理。",
+      items: [
+        {
+          question: "哪些学生可以参加本次活动？",
+          answer: "学生可根据个人意愿自愿报名参加。参展作品应基于学生在 AIE1901–1902 课程中完成的项目。"
+        },
+        {
+          question: "需要提交哪些材料？",
+          answer: "需要提交不超过 10 页的项目介绍、项目海报及短视频，并按要求上传至指定网站。"
+        },
+        {
+          question: "作品提交时间是什么时候？",
+          answer: "作品提交将于 8 月 13 日开始，8 月 23 日截止。请同时注意查收来自人工智能学院的邮件。"
+        },
+        {
+          question: "作品如何评选，入选后会获得什么荣誉？",
+          answer: "所有作品将由教师评审委员会统一评选。入选作品将获得 AI Exploration Dean's Award，以认可和嘉奖学生在实践方面的突出能力。"
+        }
+      ],
+      questionTitle: "还有其他问题？",
+      questionBody: "请通过 FAQ 问卷提交你的问题，活动组织委员会将据此整理和回应相关疑问。",
+      questionButton: "提交 FAQ 问题"
+    }
   },
   en: {
     lang: "en",
@@ -121,6 +163,18 @@ window.ACTIVITY_DATA = {
         { label: "Academic excellence", value: "Dean's List" }
       ]
     },
+    faqLink: {
+      eyebrow: "Frequently Asked Questions",
+      title: "Activity FAQs",
+      body: "Find answers about participation, required materials, submission dates, evaluation, and recognition.",
+      button: "View FAQs"
+    },
+    question: {
+      eyebrow: "Ask a Question",
+      title: "Submit Your Question",
+      body: "If you still have questions about the event or project submission, please let us know through the form below.",
+      button: "Submit an FAQ Question"
+    },
     survey: {
       eyebrow: "Interest Survey",
       title: "Tell us what you think",
@@ -139,6 +193,35 @@ window.ACTIVITY_DATA = {
     ],
     footerBrand: "AI Exploration: Student Innovation Showcase",
     footerSchool: "School of Artificial Intelligence, The Chinese University of Hong Kong, Shenzhen",
-    footerNote: "AI Exploration · Learning by Creating"
+    footerNote: "AI Exploration · Learning by Creating",
+    faqPage: {
+      pageTitle: "FAQs | AI Exploration: Student Innovation Showcase",
+      eyebrow: "AI Exploration: Student Innovation Showcase",
+      title: "Frequently Asked Questions",
+      secondaryTitle: "常见问题",
+      back: "Back to the Event Page",
+      intro: "The information below is based on the current published event arrangements.",
+      items: [
+        {
+          question: "Who can participate in the showcase?",
+          answer: "Participation is voluntary. Entries should be based on projects completed by students in AIE1901–1902."
+        },
+        {
+          question: "What materials need to be submitted?",
+          answer: "Students should submit a project introduction of no more than 10 pages, a project poster, and a short video, and upload them to the designated website as instructed."
+        },
+        {
+          question: "When is the submission period?",
+          answer: "Submissions will open on August 13 and close on August 23. Please also watch for emails from the School of Artificial Intelligence."
+        },
+        {
+          question: "How will entries be evaluated, and what recognition will selected projects receive?",
+          answer: "All entries will be evaluated by a faculty review committee. Selected projects will receive the AI Exploration Dean's Award in recognition of outstanding practical capabilities."
+        }
+      ],
+      questionTitle: "Have another question?",
+      questionBody: "Use the FAQ form to submit your question. The organizing committee will use these submissions to organize and respond to common concerns.",
+      questionButton: "Submit an FAQ Question"
+    }
   }
 };

@@ -14,19 +14,6 @@
       .replaceAll("'", "&#039;");
   }
 
-  function renderTimeline(items) {
-    return items.map(item => `
-      <div class="timeline-item">
-        <span>${esc(item.label)}</span>
-        <strong>${esc(item.value)}</strong>
-      </div>
-    `).join("");
-  }
-
-  function renderList(items) {
-    return items.map(item => `<li>${esc(item)}</li>`).join("");
-  }
-
   function renderParagraphs(items) {
     return items.map(item => `<p>${esc(item)}</p>`).join("");
   }
@@ -34,6 +21,7 @@
   function renderPage() {
     const content = DATA[activeLanguage];
     const isEnglish = activeLanguage === "en";
+    const faqUrl = `./faq.html?lang=${activeLanguage}`;
 
     document.documentElement.lang = content.lang;
     document.title = content.pageTitle;
@@ -64,27 +52,6 @@
         <section class="document-area">
           <div class="container document-container">
             <article class="activity-document" lang="${content.lang}">
-              <div class="timeline-grid" aria-label="${esc(content.timelineLabel)}">
-                ${renderTimeline(content.timeline)}
-              </div>
-
-              <section class="document-section">
-                <span class="eyebrow">${esc(content.overview.eyebrow)}</span>
-                <h2>${esc(content.overview.title)}</h2>
-                <div class="document-prose">
-                  <p class="greeting">${esc(content.overview.greeting)}</p>
-                  ${renderParagraphs(content.overview.paragraphs)}
-                </div>
-              </section>
-
-              <section class="document-section">
-                <span class="eyebrow">${esc(content.arrangements.eyebrow)}</span>
-                <h2>${esc(content.arrangements.title)}</h2>
-                <ul class="arrangement-list">
-                  ${renderList(content.arrangements.items)}
-                </ul>
-              </section>
-
               <section class="document-section award-section">
                 <span class="eyebrow">${esc(content.award.eyebrow)}</span>
                 <h2>${esc(content.award.title)}</h2>
@@ -101,12 +68,21 @@
                 </div>
               </section>
 
-              <section class="document-section survey-section">
-                <span class="eyebrow">${esc(content.survey.eyebrow)}</span>
-                <h2>${esc(content.survey.title)}</h2>
-                <p>${esc(content.survey.body)}</p>
-                <a class="action-button survey-button" href="${esc(DATA.surveyUrl)}" target="_blank" rel="noopener noreferrer">
-                  ${esc(content.survey.button)} <span aria-hidden="true">↗</span>
+              <section class="document-section faq-link-section">
+                <span class="eyebrow">${esc(content.faqLink.eyebrow)}</span>
+                <h2>${esc(content.faqLink.title)}</h2>
+                <p>${esc(content.faqLink.body)}</p>
+                <a class="document-link" href="${esc(faqUrl)}">
+                  ${esc(content.faqLink.button)} <span aria-hidden="true">→</span>
+                </a>
+              </section>
+
+              <section class="document-section question-section">
+                <span class="eyebrow">${esc(content.question.eyebrow)}</span>
+                <h2>${esc(content.question.title)}</h2>
+                <p>${esc(content.question.body)}</p>
+                <a class="action-button question-button" href="${esc(DATA.questionUrl)}" target="_blank" rel="noopener noreferrer">
+                  ${esc(content.question.button)} <span aria-hidden="true">↗</span>
                 </a>
               </section>
 
