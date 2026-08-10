@@ -61,82 +61,66 @@
           </div>
         </section>
 
-        <section class="timeline-band" aria-label="${esc(content.timelineLabel)}">
-          <div class="container timeline-grid">
-            ${renderTimeline(content.timeline)}
-          </div>
-        </section>
+        <section class="document-area">
+          <div class="container document-container">
+            <article class="activity-document" lang="${content.lang}">
+              <div class="timeline-grid" aria-label="${esc(content.timelineLabel)}">
+                ${renderTimeline(content.timeline)}
+              </div>
 
-        <section class="content-band content-band-light">
-          <div class="container content-grid">
-            <div class="section-heading">
-              <span class="eyebrow">${esc(content.overview.eyebrow)}</span>
-              <h2>${esc(content.overview.title)}</h2>
-            </div>
-            <div class="prose" lang="${content.lang}">
-              <p class="greeting">${esc(content.overview.greeting)}</p>
-              ${renderParagraphs(content.overview.paragraphs)}
-            </div>
-          </div>
-        </section>
-
-        <section class="content-band">
-          <div class="container content-grid">
-            <div class="section-heading">
-              <span class="eyebrow">${esc(content.arrangements.eyebrow)}</span>
-              <h2>${esc(content.arrangements.title)}</h2>
-            </div>
-            <ol class="arrangement-list" lang="${content.lang}">
-              ${renderList(content.arrangements.items)}
-            </ol>
-          </div>
-        </section>
-
-        <section class="award-band">
-          <div class="container award-layout">
-            <div class="award-copy">
-              <span class="eyebrow eyebrow-gold">${esc(content.award.eyebrow)}</span>
-              <h2>${esc(content.award.title)}</h2>
-              ${renderParagraphs(content.award.paragraphs)}
-            </div>
-            <div class="award-dimensions" aria-label="${esc(content.award.title)}">
-              ${content.award.dimensions.map(item => `
-                <div class="award-dimension">
-                  <span>${esc(item.label)}</span>
-                  <strong>${esc(item.value)}</strong>
+              <section class="document-section">
+                <span class="eyebrow">${esc(content.overview.eyebrow)}</span>
+                <h2>${esc(content.overview.title)}</h2>
+                <div class="document-prose">
+                  <p class="greeting">${esc(content.overview.greeting)}</p>
+                  ${renderParagraphs(content.overview.paragraphs)}
                 </div>
-              `).join("")}
-            </div>
-          </div>
-        </section>
+              </section>
 
-        <section class="survey-band">
-          <div class="container survey-layout">
-            <div>
-              <span class="eyebrow">${esc(content.survey.eyebrow)}</span>
-              <h2>${esc(content.survey.title)}</h2>
-              <p>${esc(content.survey.body)}</p>
-            </div>
-            <a class="action-button action-button-primary survey-button" href="${esc(DATA.surveyUrl)}" target="_blank" rel="noopener noreferrer">
-              ${esc(content.survey.button)} <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-        </section>
+              <section class="document-section">
+                <span class="eyebrow">${esc(content.arrangements.eyebrow)}</span>
+                <h2>${esc(content.arrangements.title)}</h2>
+                <ul class="arrangement-list">
+                  ${renderList(content.arrangements.items)}
+                </ul>
+              </section>
 
-        <section class="submission-band" id="submission-notice" tabindex="-1">
-          <div class="container submission-layout">
-            <span class="submission-label">${esc(content.submission.label)}</span>
-            <div>
-              <h2>${esc(content.submission.title)}</h2>
-              <p>${esc(content.submission.body)}</p>
-            </div>
-          </div>
-        </section>
+              <section class="document-section award-section">
+                <span class="eyebrow">${esc(content.award.eyebrow)}</span>
+                <h2>${esc(content.award.title)}</h2>
+                <div class="document-prose">
+                  ${renderParagraphs(content.award.paragraphs)}
+                </div>
+                <div class="award-dimensions" aria-label="${esc(content.award.title)}">
+                  ${content.award.dimensions.map(item => `
+                    <div class="award-dimension">
+                      <span>${esc(item.label)}</span>
+                      <strong>${esc(item.value)}</strong>
+                    </div>
+                  `).join("")}
+                </div>
+              </section>
 
-        <section class="signature-band">
-          <div class="container signature" lang="${content.lang}">
-            <p>${esc(content.signature[0])}</p>
-            <strong>${esc(content.signature[1])}</strong>
+              <section class="document-section survey-section">
+                <span class="eyebrow">${esc(content.survey.eyebrow)}</span>
+                <h2>${esc(content.survey.title)}</h2>
+                <p>${esc(content.survey.body)}</p>
+                <a class="action-button survey-button" href="${esc(DATA.surveyUrl)}" target="_blank" rel="noopener noreferrer">
+                  ${esc(content.survey.button)} <span aria-hidden="true">↗</span>
+                </a>
+              </section>
+
+              <section class="document-section submission-section" id="submission-notice" tabindex="-1">
+                <span class="eyebrow">${esc(content.submission.label)}</span>
+                <h2>${esc(content.submission.title)}</h2>
+                <p>${esc(content.submission.body)}</p>
+              </section>
+
+              <div class="signature">
+                <p>${esc(content.signature[0])}</p>
+                <strong>${esc(content.signature[1])}</strong>
+              </div>
+            </article>
           </div>
         </section>
       </div>
