@@ -1,6 +1,6 @@
 window.ACTIVITY_DATA = {
   surveyUrl: "https://tideclub26.feishu.cn/share/base/form/shrcnrjxqX99rMGYaHx9V4DgSjf",
-  submissionUrl: "#submission-notice",
+  submissionUrl: "https://tideclub26.feishu.cn/share/base/form/shrcnsWdFYJh30lIFqyLsBxeOIc",
   zh: {
     lang: "zh-CN",
     pageTitle: "AI探索：学生创新作品展示",
@@ -13,8 +13,7 @@ window.ACTIVITY_DATA = {
       secondaryTitle: "AI Exploration: Student Innovation Showcase",
       lead: "让实践成果被看见，让探索精神持续生长。",
       surveyButton: "填写意向调查",
-      submitButton: "提交作品",
-      submitNote: "提交入口将另行公布"
+      submitButton: "提交作品"
     },
     timelineLabel: "活动时间与要求",
     timeline: [
@@ -60,8 +59,9 @@ window.ACTIVITY_DATA = {
     },
     submission: {
       label: "作品提交",
-      title: "提交入口将于后续公布",
-      body: "提交将于8月13日开始、8月23日截止。正式链接公布后，本页面的“提交作品”按钮将直接跳转至指定网站。"
+      title: "提交学生创新作品",
+      body: "提交将于8月13日开始、8月23日截止。请通过下方入口按要求提交项目介绍、海报及短视频。",
+      button: "提交作品"
     },
     signature: [
       "“AI探索：学生创新作品展示”活动组委会",
@@ -83,8 +83,7 @@ window.ACTIVITY_DATA = {
       secondaryTitle: "AI探索：学生创新作品展示",
       lead: "Making practical achievements visible and sustaining the spirit of exploration.",
       surveyButton: "Interest Survey",
-      submitButton: "Submit Your Work",
-      submitNote: "Submission link to be announced"
+      submitButton: "Submit Your Work"
     },
     timelineLabel: "Event dates and requirements",
     timeline: [
@@ -130,8 +129,9 @@ window.ACTIVITY_DATA = {
     },
     submission: {
       label: "Project Submission",
-      title: "Submission link to be announced",
-      body: "Submissions will open on August 13 and close on August 23. Once the official link is available, the “Submit Your Work” button on this page will take you directly to the designated website."
+      title: "Submit Your Project",
+      body: "Submissions will open on August 13 and close on August 23. Please use the link below to submit your project brief, poster, and short video as required.",
+      button: "Submit Your Work"
     },
     signature: [
       "Organizing Committee, AI Exploration: Student Innovation Showcase",

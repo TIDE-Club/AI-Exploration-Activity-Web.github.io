@@ -114,6 +114,9 @@
                 <span class="eyebrow">${esc(content.submission.label)}</span>
                 <h2>${esc(content.submission.title)}</h2>
                 <p>${esc(content.submission.body)}</p>
+                <a class="action-button submission-button" href="${esc(DATA.submissionUrl)}" target="_blank" rel="noopener noreferrer">
+                  ${esc(content.submission.button)} <span aria-hidden="true">↗</span>
+                </a>
               </section>
 
               <div class="signature">
