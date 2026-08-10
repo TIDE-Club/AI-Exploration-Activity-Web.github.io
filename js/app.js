@@ -53,21 +53,11 @@
     app.innerHTML = `
       <div id="top" class="page-content">
         <section class="activity-hero" aria-labelledby="activity-title">
-          <div class="activity-hero-overlay" aria-hidden="true"></div>
           <div class="container hero-content">
             <p class="hero-eyebrow">${esc(content.hero.eyebrow)}</p>
             <h1 id="activity-title">${esc(content.hero.title)}</h1>
             <p class="hero-secondary" lang="${isEnglish ? "zh-CN" : "en"}">${esc(content.hero.secondaryTitle)}</p>
             <p class="hero-lead">${esc(content.hero.lead)}</p>
-            <div class="hero-actions">
-              <a class="action-button action-button-primary" href="${esc(DATA.surveyUrl)}" target="_blank" rel="noopener noreferrer">
-                ${esc(content.hero.surveyButton)} <span aria-hidden="true">↗</span>
-              </a>
-              <a class="action-button action-button-secondary" href="${esc(DATA.submissionUrl)}">
-                ${esc(content.hero.submitButton)} <span aria-hidden="true">→</span>
-              </a>
-            </div>
-            <p class="hero-submit-note">${esc(content.hero.submitNote)}</p>
           </div>
         </section>
 

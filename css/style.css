@@ -81,15 +81,13 @@ h1, h2, h3 { line-height: 1.2; }
   align-items: center;
   overflow: hidden;
   color: #fff;
-  background: var(--navy-dark) url("../assets/images/hero-bg.jpg") center / cover no-repeat;
+  background: var(--navy-dark);
 }
-.activity-hero-overlay { position: absolute; inset: 0; background: rgba(6,24,44,.74); }
 .hero-content { position: relative; z-index: 1; padding-top: 64px; padding-bottom: 68px; }
 .hero-eyebrow { margin-bottom: 16px; color: #a9e3e0; font-size: 13px; font-weight: 800; }
 .hero-content h1 { max-width: 860px; font-size: 52px; overflow-wrap: anywhere; }
 .hero-secondary { margin-top: 10px; color: rgba(255,255,255,.74); font-size: 18px; font-weight: 700; }
 .hero-lead { max-width: 720px; margin-top: 24px; color: rgba(255,255,255,.9); font-size: 20px; font-weight: 650; }
-.hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 12px; }
 .action-button {
   min-height: 44px;
   padding: 10px 16px;
@@ -105,9 +103,6 @@ h1, h2, h3 { line-height: 1.2; }
 }
 .action-button-primary { background: #fff; color: var(--navy-dark); }
 .action-button-primary:hover { background: var(--teal-soft); }
-.action-button-secondary { border-color: rgba(255,255,255,.54); color: #fff; background: rgba(255,255,255,.08); }
-.action-button-secondary:hover { background: rgba(255,255,255,.16); }
-.hero-submit-note { margin-top: 12px; color: rgba(255,255,255,.66); font-size: 13px; }
 
 .timeline-band { background: var(--surface); border-bottom: 1px solid var(--line); }
 .timeline-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
@@ -201,8 +196,7 @@ a:focus-visible, button:focus-visible, #submission-notice:focus-visible { outlin
   .hero-content h1 { font-size: 36px; }
   .hero-secondary { font-size: 15px; }
   .hero-lead { font-size: 18px; }
-  .hero-actions { flex-direction: column; align-items: stretch; }
-  .action-button { width: 100%; }
+  .survey-button { width: 100%; }
   .timeline-grid { grid-template-columns: 1fr; }
   .timeline-item { padding: 18px 4px; border-left: 0; border-top: 1px solid var(--line); }
   .timeline-item:first-child { border-top: 0; }
