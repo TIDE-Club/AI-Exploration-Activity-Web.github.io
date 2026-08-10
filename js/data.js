@@ -72,8 +72,8 @@ window.ACTIVITY_DATA = {
     },
     submission: {
       label: "作品提交",
-      title: "提交学生创新作品",
-      body: "提交将于8月13日开始、8月23日截止。请通过下方入口按要求提交项目介绍、海报及短视频。",
+      title: "提交你的创新作品",
+      body: "提交将于8月20日开始、8月23日截止。请通过下方入口按要求提交项目介绍、海报及短视频。",
       button: "提交作品"
     },
     signature: [
@@ -183,8 +183,8 @@ window.ACTIVITY_DATA = {
     },
     submission: {
       label: "Project Submission",
-      title: "Submit Your Project",
-      body: "Submissions will open on August 13 and close on August 23. Please use the link below to submit your project brief, poster, and short video as required.",
+      title: "Submit Your Innovative Work",
+      body: "Submissions will open on August 20 and close on August 23. Please use the link below to submit your project brief, poster, and short video as required.",
       button: "Submit Your Work"
     },
     signature: [
