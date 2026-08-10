@@ -19,7 +19,7 @@ window.ACTIVITY_DATA = {
     timelineLabel: "活动时间与要求",
     timeline: [
       { label: "参与方式", value: "学生自愿报名" },
-      { label: "提交开放", value: "8月13日" },
+      { label: "提交开放", value: "8月20日" },
       { label: "提交截止", value: "8月23日" },
       { label: "提交材料", value: "项目介绍、海报及短视频" }
     ],
@@ -37,7 +37,7 @@ window.ACTIVITY_DATA = {
       items: [
         "学生可根据个人意愿自愿报名参加；",
         "基于在AIE1901–1902课程中完成的项目，撰写项目介绍（不超过10页），制作海报及短视频，并按要求上传至指定网站；",
-        "提交将于8月13日开始，8月23日截止。提交链接将另行公布。请注意查收来自人工智能学院的邮件。"
+        "提交将于8月20日开始，8月23日截止。提交链接将另行公布。请注意查收来自人工智能学院的邮件。"
       ]
     },
     award: {
@@ -101,7 +101,7 @@ window.ACTIVITY_DATA = {
         },
         {
           question: "作品提交时间是什么时候？",
-          answer: "作品提交将于 8 月 13 日开始，8 月 23 日截止。请同时注意查收来自人工智能学院的邮件。"
+          answer: "作品提交将于 8 月 20 日开始，8 月 23 日截止。请同时注意查收来自人工智能学院的邮件。"
         },
         {
           question: "作品如何评选，入选后会获得什么荣誉？",
@@ -130,7 +130,7 @@ window.ACTIVITY_DATA = {
     timelineLabel: "Event dates and requirements",
     timeline: [
       { label: "Participation", value: "Voluntary registration" },
-      { label: "Submissions open", value: "August 13" },
+      { label: "Submissions open", value: "August 20" },
       { label: "Submission deadline", value: "August 23" },
       { label: "Required materials", value: "Project brief, poster, and short video" }
     ],
@@ -148,7 +148,7 @@ window.ACTIVITY_DATA = {
       items: [
         "Students may participate voluntarily based on their personal interest.",
         "Based on projects completed in AIE1901–1902, participants should prepare a project introduction of no more than 10 pages, a poster, and a short video, and upload them to the designated website as instructed.",
-        "Submissions will open on August 13 and close on August 23. The submission link will be announced separately. Please watch for emails from the School of Artificial Intelligence."
+        "Submissions will open on August 20 and close on August 23. The submission link will be announced separately. Please watch for emails from the School of Artificial Intelligence."
       ]
     },
     award: {
@@ -212,7 +212,7 @@ window.ACTIVITY_DATA = {
         },
         {
           question: "When is the submission period?",
-          answer: "Submissions will open on August 13 and close on August 23. Please also watch for emails from the School of Artificial Intelligence."
+          answer: "Submissions will open on August 20 and close on August 23. Please also watch for emails from the School of Artificial Intelligence."
         },
         {
           question: "How will entries be evaluated, and what recognition will selected projects receive?",
