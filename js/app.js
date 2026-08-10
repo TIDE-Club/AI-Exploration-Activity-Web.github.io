@@ -68,22 +68,18 @@
                 </div>
               </section>
 
-              <section class="document-section faq-link-section">
-                <span class="eyebrow">${esc(content.faqLink.eyebrow)}</span>
-                <h2>${esc(content.faqLink.title)}</h2>
-                <p>${esc(content.faqLink.body)}</p>
-                <a class="document-link" href="${esc(faqUrl)}">
-                  ${esc(content.faqLink.button)} <span aria-hidden="true">→</span>
-                </a>
-              </section>
-
               <section class="document-section question-section">
                 <span class="eyebrow">${esc(content.question.eyebrow)}</span>
                 <h2>${esc(content.question.title)}</h2>
                 <p>${esc(content.question.body)}</p>
-                <a class="action-button question-button" href="${esc(DATA.questionUrl)}" target="_blank" rel="noopener noreferrer">
-                  ${esc(content.question.button)} <span aria-hidden="true">↗</span>
-                </a>
+                <div class="question-actions">
+                  <a class="action-button question-button" href="${esc(DATA.questionUrl)}" target="_blank" rel="noopener noreferrer">
+                    ${esc(content.question.button)} <span aria-hidden="true">↗</span>
+                  </a>
+                  <a class="document-link" href="${esc(faqUrl)}">
+                    ${esc(content.faqLink.button)} <span aria-hidden="true">→</span>
+                  </a>
+                </div>
               </section>
 
               <section class="document-section submission-section" id="submission-notice" tabindex="-1">

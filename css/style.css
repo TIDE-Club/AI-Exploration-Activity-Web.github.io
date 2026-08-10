@@ -113,7 +113,7 @@ h1, h2, h3 { line-height: 1.25; }
 .award-dimension span { display: block; color: var(--accent); font-size: 12px; font-weight: 800; }
 .award-dimension strong { display: block; margin-top: 4px; font-size: 16px; line-height: 1.5; overflow-wrap: anywhere; }
 
-.faq-link-section > p, .question-section > p, .submission-section > p { margin-top: 16px; color: #46586a; font-size: 16px; line-height: 1.82; }
+.question-section > p, .submission-section > p { margin-top: 16px; color: #46586a; font-size: 16px; line-height: 1.82; }
 .document-link {
   margin-top: 18px;
   display: inline-flex;
@@ -125,6 +125,8 @@ h1, h2, h3 { line-height: 1.25; }
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.question-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; }
+.question-actions .document-link { margin-top: 22px; }
 .action-button {
   min-height: 44px;
   margin-top: 22px;
@@ -173,10 +175,12 @@ a:focus-visible, button:focus-visible, #submission-notice:focus-visible { outlin
   .document-section { margin-top: 42px; }
   .document-section + .document-section { margin-top: 44px; padding-top: 40px; }
   .document-section h2 { font-size: 25px; overflow-wrap: anywhere; }
-  .document-prose, .faq-link-section > p, .question-section > p, .submission-section > p { font-size: 15px; text-align: left; }
+  .document-prose, .question-section > p, .submission-section > p { font-size: 15px; text-align: left; }
   .award-dimensions { grid-template-columns: 1fr; }
   .award-dimension + .award-dimension { border-left: 0; border-top: 1px solid var(--line); }
   .action-button { width: 100%; }
+  .question-actions { align-items: stretch; flex-direction: column; gap: 0; }
+  .question-actions .document-link { align-self: flex-start; }
   .signature { text-align: left; }
   .footer-grid { align-items: flex-start; flex-direction: column; }
   .footer-note { text-align: left; }
