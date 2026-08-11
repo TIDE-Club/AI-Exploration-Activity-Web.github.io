@@ -70,7 +70,6 @@
                 ${renderItems(faq.items)}
               </div>
               <section class="faq-question-cta">
-                <span class="eyebrow">${esc(content.question.eyebrow)}</span>
                 <h2>${esc(faq.questionTitle)}</h2>
                 <p>${esc(faq.questionBody)}</p>
                 <a class="action-button" href="${esc(DATA.questionUrl)}" target="_blank" rel="noopener noreferrer">

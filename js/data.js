@@ -9,7 +9,7 @@ window.ACTIVITY_DATA = {
     brand: "AI探索",
     languageLabel: "选择网站语言",
     hero: {
-      eyebrow: "AIE 1901–1904 · 2026年8月",
+      eyebrow: "香港中文大学（深圳）人工智能学院",
       title: "AI探索：学生创新作品展示",
       secondaryTitle: "AI Exploration: Student Innovation Showcase",
       lead: "让实践成果被看见，让探索精神持续生长。",
@@ -41,28 +41,31 @@ window.ACTIVITY_DATA = {
       ]
     },
     award: {
-      eyebrow: "荣誉认可",
       title: "AI Exploration Dean's Award",
-      paragraphs: [
-        "所有作品将由教师评审委员会统一评选，入选作品将获得“AI Exploration Dean's Award”。该奖项旨在认可与嘉奖学生在实践方面的突出能力。",
-        "与之相辅相成的 Dean's List，则表彰学业成绩优异的学生。两者分别从“实践能力”与“学术素养”两个维度，共同构成驱动学生卓越发展的“双引擎”激励体系，体现了 AI 学院对多元化学生成就的重视与认可。"
-      ],
-      dimensions: [
-        { label: "实践能力", value: "AI Exploration Dean's Award" },
-        { label: "学术素养", value: "Dean's List" }
+      blocks: [
+        {
+          text: "AIE1901-1904《AI探索 I-IV》是人工智能学院旨在培养学生实践动手能力的系列创新课程。为巩固与提升阶段性教学效果，学院将于2026年8月举办“AI探索：学生创新作品展示”活动。"
+        },
+        {
+          label: "申报资格与要求",
+          text: "凡在上学年修读过AIE1901-1904课程的人工智能学院学生均可报名。参赛作品须为原课程项目的深化完善版，或基于课程项目拓展衍生的创新成果。意向参展者请点击本页面底部链接，按指引提交申报材料。"
+        },
+        {
+          label: "评审与表彰",
+          text: "经专家评审委员会严格遴选，入选的优秀作品将于8月31日参加现场作品展示。其中，表现突出的作品将荣获学院设立的“AI探索院长奖”（AI Exploration Dean's Award）。"
+        },
+        {
+          text: "该奖项旨在表彰学生在项目实践方面的突出能力。它与专注于表彰优异学业成绩的“Dean's List”相辅相成，分别从“实践能力”与“学术素养”两个维度，共同构成驱动学生卓越发展的“双引擎”激励体系，体现了 AI 学院对多元化学生成就的重视与认可。"
+        }
       ]
     },
     faqLink: {
-      eyebrow: "常见问题",
-      title: "活动常见问题",
-      body: "查看活动参与、材料准备、提交时间与评选方式等常见问题。",
-      button: "查看常见问题"
+      button: "查看常见问题及解答"
     },
     question: {
-      eyebrow: "FAQ 提问",
-      title: "提交你的问题",
-      body: "如果你对活动安排或作品提交仍有疑问，请通过下方问卷告诉我们。",
-      button: "提交 FAQ 问题"
+      title: "问题及解答",
+      body: "如果你对活动安排或作品提交有疑问，请通过下方链接告诉我们。",
+      button: "提交问题"
     },
     survey: {
       eyebrow: "参与意向",
@@ -71,9 +74,12 @@ window.ACTIVITY_DATA = {
       button: "填写活动意向调查"
     },
     submission: {
-      label: "作品提交",
-      title: "提交你的创新作品",
-      body: "提交将于8月20日开始、8月23日截止。请通过下方入口按要求提交项目介绍、海报及短视频。",
+      title: "提交您的作品",
+      details: [
+        { label: "需提交的材料", text: "作者信息，项目报告（8页之内）、海报及短视频（5分钟之内）。" },
+        { label: "提交时间", text: "以下提交链接将于8月20日开启、8月23日截止。" }
+      ],
+      linkLabel: "提交链接",
       button: "提交作品"
     },
     signature: [
@@ -93,11 +99,11 @@ window.ACTIVITY_DATA = {
       items: [
         {
           question: "哪些学生可以参加本次活动？",
-          answer: "学生可根据个人意愿自愿报名参加。参展作品应基于学生在 AIE1901–1902 课程中完成的项目。"
+          answer: "凡在上学年修读过 AIE1901–1904 课程的人工智能学院学生均可报名。参赛作品须为原课程项目的深化完善版，或基于课程项目拓展衍生的创新成果。"
         },
         {
           question: "需要提交哪些材料？",
-          answer: "需要提交不超过 10 页的项目介绍、项目海报及短视频，并按要求上传至指定网站。"
+          answer: "需要提交作者信息、8 页之内的项目报告、海报及 5 分钟之内的短视频，并按要求通过活动网站提交。"
         },
         {
           question: "作品提交时间是什么时候？",
@@ -105,7 +111,7 @@ window.ACTIVITY_DATA = {
         },
         {
           question: "作品如何评选，入选后会获得什么荣誉？",
-          answer: "所有作品将由教师评审委员会统一评选。入选作品将获得 AI Exploration Dean's Award，以认可和嘉奖学生在实践方面的突出能力。"
+          answer: "作品将由专家评审委员会严格遴选，入选的优秀作品将于 8 月 31 日参加现场作品展示。其中，表现突出的作品将荣获学院设立的“AI探索院长奖”（AI Exploration Dean's Award）。"
         }
       ],
       questionTitle: "还有其他问题？",
@@ -120,7 +126,7 @@ window.ACTIVITY_DATA = {
     brand: "AI Exploration",
     languageLabel: "Select website language",
     hero: {
-      eyebrow: "AIE 1901–1904 · August 2026",
+      eyebrow: "School of Artificial Intelligence, The Chinese University of Hong Kong, Shenzhen",
       title: "AI Exploration: Student Innovation Showcase",
       secondaryTitle: "AI探索：学生创新作品展示",
       lead: "Making practical achievements visible and sustaining the spirit of exploration.",
@@ -152,28 +158,31 @@ window.ACTIVITY_DATA = {
       ]
     },
     award: {
-      eyebrow: "Recognition",
       title: "AI Exploration Dean's Award",
-      paragraphs: [
-        "All entries will be evaluated by a faculty review committee. Selected projects will receive the “AI Exploration Dean's Award”, which recognizes and celebrates outstanding practical capabilities.",
-        "Complementing this award, the Dean's List recognizes students with outstanding academic performance. Together, they form a dual-engine incentive system that advances student excellence through practical capability and academic accomplishment, reflecting the School's recognition of diverse student achievements."
-      ],
-      dimensions: [
-        { label: "Practical capability", value: "AI Exploration Dean's Award" },
-        { label: "Academic excellence", value: "Dean's List" }
+      blocks: [
+        {
+          text: "AIE1901–1904, AI Exploration I–IV, is a series of innovative courses offered by the School of Artificial Intelligence to cultivate students' practical and hands-on capabilities. To consolidate and enhance the learning outcomes achieved at this stage, the School will hold the “AI Exploration: Student Innovation Showcase” in August 2026."
+        },
+        {
+          label: "Eligibility and Requirements",
+          text: "All students from the School of Artificial Intelligence who took AIE1901–1904 in the previous academic year may apply. Entries must be enhanced and refined versions of original course projects or innovative outcomes extended from those projects. Students interested in participating should use the link at the bottom of this page and follow the instructions to submit their application materials."
+        },
+        {
+          label: "Review and Recognition",
+          text: "Following rigorous selection by an expert review committee, selected projects will participate in an on-site showcase on August 31. Outstanding projects will receive the AI Exploration Dean's Award established by the School."
+        },
+        {
+          text: "The award recognizes students' outstanding capabilities in project practice. Together with the Dean's List, which recognizes excellent academic performance, the two honors form a dual-engine incentive system that advances student excellence through practical capability and academic accomplishment, reflecting the School's recognition of diverse student achievements."
+        }
       ]
     },
     faqLink: {
-      eyebrow: "Frequently Asked Questions",
-      title: "Activity FAQs",
-      body: "Find answers about participation, required materials, submission dates, evaluation, and recognition.",
-      button: "View FAQs"
+      button: "View FAQs and Answers"
     },
     question: {
-      eyebrow: "Ask a Question",
-      title: "Submit Your Question",
-      body: "If you still have questions about the event or project submission, please let us know through the form below.",
-      button: "Submit an FAQ Question"
+      title: "Questions and Answers",
+      body: "If you have questions about the event arrangements or project submission, please let us know through the links below.",
+      button: "Submit a Question"
     },
     survey: {
       eyebrow: "Interest Survey",
@@ -182,9 +191,12 @@ window.ACTIVITY_DATA = {
       button: "Complete the Interest Survey"
     },
     submission: {
-      label: "Project Submission",
-      title: "Submit Your Innovative Work",
-      body: "Submissions will open on August 20 and close on August 23. Please use the link below to submit your project brief, poster, and short video as required.",
+      title: "Submit Your Work",
+      details: [
+        { label: "Required Materials", text: "Author information, a project report of no more than 8 pages, a poster, and a short video of no more than 5 minutes." },
+        { label: "Submission Period", text: "The submission link below will open on August 20 and close on August 23." }
+      ],
+      linkLabel: "Submission Link",
       button: "Submit Your Work"
     },
     signature: [
@@ -204,11 +216,11 @@ window.ACTIVITY_DATA = {
       items: [
         {
           question: "Who can participate in the showcase?",
-          answer: "Participation is voluntary. Entries should be based on projects completed by students in AIE1901–1902."
+          answer: "All students from the School of Artificial Intelligence who took AIE1901–1904 in the previous academic year may apply. Entries must be enhanced and refined versions of original course projects or innovative outcomes extended from those projects."
         },
         {
           question: "What materials need to be submitted?",
-          answer: "Students should submit a project introduction of no more than 10 pages, a project poster, and a short video, and upload them to the designated website as instructed."
+          answer: "Students should submit author information, a project report of no more than 8 pages, a poster, and a short video of no more than 5 minutes through the event website as instructed."
         },
         {
           question: "When is the submission period?",
@@ -216,7 +228,7 @@ window.ACTIVITY_DATA = {
         },
         {
           question: "How will entries be evaluated, and what recognition will selected projects receive?",
-          answer: "All entries will be evaluated by a faculty review committee. Selected projects will receive the AI Exploration Dean's Award in recognition of outstanding practical capabilities."
+          answer: "Entries will undergo rigorous selection by an expert review committee. Selected projects will participate in an on-site showcase on August 31, and outstanding projects will receive the AI Exploration Dean's Award established by the School."
         }
       ],
       questionTitle: "Have another question?",

@@ -14,8 +14,10 @@
       .replaceAll("'", "&#039;");
   }
 
-  function renderParagraphs(items) {
-    return items.map(item => `<p>${esc(item)}</p>`).join("");
+  function renderLabeledBlocks(items) {
+    return items.map(item => `
+      <p>${item.label ? `<strong>${esc(item.label)}</strong> ` : ""}${esc(item.text)}</p>
+    `).join("");
   }
 
   function renderPage() {
@@ -53,23 +55,13 @@
           <div class="container document-container">
             <article class="activity-document" lang="${content.lang}">
               <section class="document-section award-section">
-                <span class="eyebrow">${esc(content.award.eyebrow)}</span>
                 <h2>${esc(content.award.title)}</h2>
-                <div class="document-prose">
-                  ${renderParagraphs(content.award.paragraphs)}
-                </div>
-                <div class="award-dimensions" aria-label="${esc(content.award.title)}">
-                  ${content.award.dimensions.map(item => `
-                    <div class="award-dimension">
-                      <span>${esc(item.label)}</span>
-                      <strong>${esc(item.value)}</strong>
-                    </div>
-                  `).join("")}
+                <div class="document-prose labeled-prose">
+                  ${renderLabeledBlocks(content.award.blocks)}
                 </div>
               </section>
 
               <section class="document-section question-section">
-                <span class="eyebrow">${esc(content.question.eyebrow)}</span>
                 <h2>${esc(content.question.title)}</h2>
                 <p>${esc(content.question.body)}</p>
                 <div class="question-actions">
@@ -83,9 +75,11 @@
               </section>
 
               <section class="document-section submission-section" id="submission-notice" tabindex="-1">
-                <span class="eyebrow">${esc(content.submission.label)}</span>
                 <h2>${esc(content.submission.title)}</h2>
-                <p>${esc(content.submission.body)}</p>
+                <div class="submission-details">
+                  ${renderLabeledBlocks(content.submission.details)}
+                </div>
+                <p class="submission-link-label"><strong>${esc(content.submission.linkLabel)}</strong></p>
                 <a class="action-button submission-button" href="${esc(DATA.submissionUrl)}" target="_blank" rel="noopener noreferrer">
                   ${esc(content.submission.button)} <span aria-hidden="true">↗</span>
                 </a>
