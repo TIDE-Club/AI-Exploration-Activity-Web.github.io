@@ -55,7 +55,6 @@
           <div class="container document-container">
             <article class="activity-document" lang="${content.lang}">
               <section class="document-section award-section">
-                <h2>${esc(content.award.title)}</h2>
                 <div class="document-prose labeled-prose">
                   ${renderLabeledBlocks(content.award.blocks)}
                 </div>
@@ -79,10 +78,12 @@
                 <div class="submission-details">
                   ${renderLabeledBlocks(content.submission.details)}
                 </div>
-                <p class="submission-link-label"><strong>${esc(content.submission.linkLabel)}</strong></p>
-                <a class="action-button submission-button" href="${esc(DATA.submissionUrl)}" target="_blank" rel="noopener noreferrer">
-                  ${esc(content.submission.button)} <span aria-hidden="true">↗</span>
-                </a>
+                <div class="submission-action">
+                  <p class="submission-link-label"><strong>${esc(content.submission.linkLabel)}</strong></p>
+                  <a class="action-button submission-button" href="${esc(DATA.submissionUrl)}" target="_blank" rel="noopener noreferrer">
+                    ${esc(content.submission.button)} <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
               </section>
 
               <div class="signature">

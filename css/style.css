@@ -97,6 +97,7 @@ h1, h2, h3 { line-height: 1.25; }
 .eyebrow { display: block; margin-bottom: 8px; color: var(--accent); font-size: 12px; font-weight: 850; }
 .document-section h2 { font-size: 29px; }
 .document-prose { margin-top: 22px; color: #35455a; font-size: 16px; line-height: 1.88; }
+.award-section .document-prose { margin-top: 0; }
 .document-prose p + p { margin-top: 16px; }
 .document-prose .greeting { margin-bottom: 16px; color: var(--text); font-weight: 750; }
 
@@ -139,7 +140,9 @@ h1, h2, h3 { line-height: 1.25; }
 .submission-section { scroll-margin-top: 86px; }
 .submission-details { margin-top: 20px; color: #46586a; font-size: 16px; line-height: 1.82; }
 .submission-details p + p { margin-top: 12px; }
-.submission-link-label { margin-top: 20px; color: #46586a; font-size: 16px; line-height: 1.82; }
+.submission-action { margin-top: 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+.submission-link-label { color: #46586a; font-size: 16px; line-height: 1.82; }
+.submission-action .action-button { margin-top: 0; }
 .signature { margin-top: 54px; padding-top: 24px; border-top: 1px solid var(--line); text-align: right; color: #4a5a6a; }
 .signature p { font-size: 15px; }
 .signature strong { display: block; margin-top: 4px; color: var(--text); font-size: 15px; }
@@ -172,6 +175,7 @@ a:focus-visible, button:focus-visible, #submission-notice:focus-visible { outlin
   .document-section h2 { font-size: 25px; overflow-wrap: anywhere; }
   .document-prose, .question-section > p, .submission-details, .submission-link-label { font-size: 15px; text-align: left; }
   .action-button { width: 100%; }
+  .submission-action .action-button { width: auto; }
   .question-actions { align-items: stretch; flex-direction: column; gap: 0; }
   .question-actions .document-link { align-self: flex-start; }
   .signature { text-align: left; }
