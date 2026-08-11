@@ -81,11 +81,18 @@ h1, h2, h3 { line-height: 1.25; }
   background: var(--hero);
   border-bottom: 1px solid #c9d8df;
 }
-.hero-content { padding-top: 54px; padding-bottom: 58px; }
+.hero-content {
+  width: min(960px, calc(100% - 40px));
+  padding-top: 54px;
+  padding-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+}
 .hero-eyebrow { margin-bottom: 15px; color: var(--accent); font-size: 13px; font-weight: 820; }
 .hero-content h1 { max-width: 900px; color: var(--primary-dark); font-size: 50px; overflow-wrap: anywhere; }
 .hero-secondary { margin-top: 10px; color: #536775; font-size: 18px; font-weight: 700; }
 .hero-lead { max-width: 760px; margin-top: 24px; color: #354c5a; font-size: 19px; font-weight: 650; }
+.hero-signature { margin-top: 28px; align-self: flex-end; color: #465d6b; font-size: 14px; font-weight: 700; text-align: right; }
 
 .document-area { background: var(--surface); }
 .document-container { max-width: 960px; padding-top: 58px; padding-bottom: 94px; }
@@ -143,10 +150,6 @@ h1, h2, h3 { line-height: 1.25; }
 .submission-action { margin-top: 20px; display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
 .submission-link-label { color: #46586a; font-size: 16px; line-height: 1.82; }
 .submission-action .action-button { margin-top: 0; }
-.signature { margin-top: 54px; padding-top: 24px; border-top: 1px solid var(--line); text-align: right; color: #4a5a6a; }
-.signature p { font-size: 15px; }
-.signature strong { display: block; margin-top: 4px; color: var(--text); font-size: 15px; }
-
 .site-footer { padding: 34px 0; background: #112b3c; color: rgba(255,255,255,.7); }
 .footer-grid { display: flex; justify-content: space-between; align-items: center; gap: 28px; }
 .footer-brand { margin-bottom: 3px; color: #fff; font-size: 16px; font-weight: 820; }
@@ -165,10 +168,11 @@ a:focus-visible, button:focus-visible, #submission-notice:focus-visible { outlin
   .brand-text { display: none; }
   .language-switch button { min-width: 72px; min-height: 34px; padding: 5px 9px; }
   .activity-hero { min-height: 360px; }
-  .hero-content { padding-top: 48px; padding-bottom: 50px; }
+  .hero-content { padding-top: 48px; padding-bottom: 34px; }
   .hero-content h1 { font-size: 35px; }
   .hero-secondary { font-size: 15px; }
   .hero-lead { font-size: 17px; }
+  .hero-signature { max-width: 300px; margin-top: 24px; font-size: 13px; }
   .document-container { padding-top: 42px; padding-bottom: 72px; }
   .document-section { margin-top: 42px; }
   .document-section + .document-section { margin-top: 44px; padding-top: 40px; }
@@ -178,7 +182,6 @@ a:focus-visible, button:focus-visible, #submission-notice:focus-visible { outlin
   .submission-action .action-button { width: auto; }
   .question-actions { align-items: stretch; flex-direction: column; gap: 0; }
   .question-actions .document-link { align-self: flex-start; }
-  .signature { text-align: left; }
   .footer-grid { align-items: flex-start; flex-direction: column; }
   .footer-note { text-align: left; }
 }

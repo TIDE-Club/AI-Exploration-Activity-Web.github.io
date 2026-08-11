@@ -48,6 +48,7 @@
             <h1 id="activity-title">${esc(content.hero.title)}</h1>
             <p class="hero-secondary" lang="${isEnglish ? "zh-CN" : "en"}">${esc(content.hero.secondaryTitle)}</p>
             <p class="hero-lead">${esc(content.hero.lead)}</p>
+            <p class="hero-signature">${esc(content.signature[0])}</p>
           </div>
         </section>
 
@@ -86,10 +87,6 @@
                 </div>
               </section>
 
-              <div class="signature">
-                <p>${esc(content.signature[0])}</p>
-                <strong>${esc(content.signature[1])}</strong>
-              </div>
             </article>
           </div>
         </section>

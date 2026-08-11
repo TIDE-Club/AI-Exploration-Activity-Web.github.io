@@ -83,8 +83,7 @@ window.ACTIVITY_DATA = {
       button: "提交作品"
     },
     signature: [
-      "“AI探索：学生创新作品展示”活动组委会",
-      "人工智能学院"
+      "“AI探索：学生创新作品展示”活动组委会"
     ],
     footerBrand: "AI探索：学生创新作品展示",
     footerSchool: "香港中文大学（深圳）人工智能学院",
@@ -200,8 +199,7 @@ window.ACTIVITY_DATA = {
       button: "Submit Your Work"
     },
     signature: [
-      "Organizing Committee, AI Exploration: Student Innovation Showcase",
-      "School of Artificial Intelligence"
+      "Organizing Committee, AI Exploration: Student Innovation Showcase"
     ],
     footerBrand: "AI Exploration: Student Innovation Showcase",
     footerSchool: "School of Artificial Intelligence, The Chinese University of Hong Kong, Shenzhen",
