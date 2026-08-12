@@ -64,7 +64,7 @@ window.ACTIVITY_DATA = {
     },
     question: {
       title: "问题及解答",
-      body: "如果你对活动安排或作品提交有疑问，请通过下方链接告诉我们。",
+      body: "如果你对活动安排或作品提交有疑问，请通过下方链接告诉我们。我们将及时把解答公布在本网站。",
       button: "提交问题"
     },
     survey: {
@@ -210,7 +210,7 @@ window.ACTIVITY_DATA = {
     },
     question: {
       title: "Questions and Answers",
-      body: "If you have questions about the event arrangements or project submission, please let us know through the links below.",
+      body: "If you have questions about the event arrangements or project submission, please let us know through the links below. We will publish answers on this website in a timely manner.",
       button: "Submit a Question"
     },
     survey: {
