@@ -88,6 +88,24 @@ window.ACTIVITY_DATA = {
             "团队分工与项目反思"
           ]
         },
+        {
+          label: "海报格式建议",
+          items: [
+            "提交单页 PDF 文件",
+            "页面尺寸为 42 cm × 57 cm",
+            "采用彩色设计，并确保文字、图表和图片清晰可读",
+            "建议包含项目名称、作者信息、核心创意、实现过程及主要成果"
+          ]
+        },
+        {
+          label: "短视频要求",
+          items: [
+            "文件大小不超过 100 MB",
+            "视频时长不超过 5 分钟",
+            "采用 MP4 等常用视频格式，并保证画面和声音清晰",
+            "视频需配套字幕；建议简要介绍项目背景、核心方案、演示过程及成果"
+          ]
+        },
         { label: "提交时间", text: "以下提交链接将于8月20日开启、8月23日截止。" }
       ],
       linkLabel: "提交链接",
@@ -213,6 +231,24 @@ window.ACTIVITY_DATA = {
             "Improvements and innovations beyond the original course project",
             "Presentation and evaluation of results",
             "Team contributions and project reflection"
+          ]
+        },
+        {
+          label: "Suggested Poster Format",
+          items: [
+            "Submit a single-page PDF file",
+            "Use a page size of 42 cm × 57 cm",
+            "Use a color design and ensure that all text, charts, and images are clear and readable",
+            "The poster should preferably include the project title, author information, core idea, implementation process, and key outcomes"
+          ]
+        },
+        {
+          label: "Short Video Requirements",
+          items: [
+            "The file size must not exceed 100 MB",
+            "The video must be no longer than 5 minutes",
+            "Use a common video format such as MP4, with clear video and audio",
+            "Subtitles are required; the video should briefly introduce the project background, core solution, demonstration process, and outcomes"
           ]
         },
         { label: "Submission Period", text: "The submission link below will open on August 20 and close on August 23." }
