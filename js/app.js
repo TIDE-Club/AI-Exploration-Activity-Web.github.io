@@ -15,9 +15,18 @@
   }
 
   function renderLabeledBlocks(items) {
-    return items.map(item => `
-      <p>${item.label ? `<strong>${esc(item.label)}</strong> ` : ""}${esc(item.text)}</p>
-    `).join("");
+    return items.map(item => {
+      if (item.items) {
+        return `
+          <div class="labeled-list">
+            <p><strong>${esc(item.label)}</strong></p>
+            <ul>${item.items.map(entry => `<li>${esc(entry)}</li>`).join("")}</ul>
+          </div>
+        `;
+      }
+
+      return `<p>${item.label ? `<strong>${esc(item.label)}</strong> ` : ""}${esc(item.text)}</p>`;
+    }).join("");
   }
 
   function renderPage() {

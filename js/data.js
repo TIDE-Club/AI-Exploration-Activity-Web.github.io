@@ -77,7 +77,17 @@ window.ACTIVITY_DATA = {
       title: "提交您的作品",
       details: [
         { label: "需提交的材料", text: "作者信息，项目报告（8页之内）、海报及短视频（5分钟之内）。" },
-        { label: "项目报告建议包含", text: "项目背景与拟解决的问题、核心创意与方案设计、技术实现与实践过程、相较原课程项目的深化与创新、成果展示与效果评估，以及团队分工与项目反思。" },
+        {
+          label: "项目报告可能包含的内容（仅供参考）",
+          items: [
+            "项目背景与拟解决的问题",
+            "核心创意与方案设计",
+            "技术实现与实践过程",
+            "相较原课程项目的深化与创新",
+            "成果展示与效果评估",
+            "团队分工与项目反思"
+          ]
+        },
         { label: "提交时间", text: "以下提交链接将于8月20日开启、8月23日截止。" }
       ],
       linkLabel: "提交链接",
@@ -194,7 +204,17 @@ window.ACTIVITY_DATA = {
       title: "Submit Your Work",
       details: [
         { label: "Required Materials", text: "Author information, a project report of no more than 8 pages, a poster, and a short video of no more than 5 minutes." },
-        { label: "Suggested Report Contents", text: "The project background and problem addressed, core idea and solution design, technical implementation and development process, improvements and innovations beyond the original course project, presentation and evaluation of results, and team contributions and project reflection." },
+        {
+          label: "Possible Report Contents (For Reference Only)",
+          items: [
+            "Project background and the problem addressed",
+            "Core idea and solution design",
+            "Technical implementation and development process",
+            "Improvements and innovations beyond the original course project",
+            "Presentation and evaluation of results",
+            "Team contributions and project reflection"
+          ]
+        },
         { label: "Submission Period", text: "The submission link below will open on August 20 and close on August 23." }
       ],
       linkLabel: "Submission Link",
