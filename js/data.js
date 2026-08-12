@@ -141,6 +141,22 @@ window.ACTIVITY_DATA = {
         {
           question: "作品如何评选，入选后会获得什么荣誉？",
           answer: "作品将由专家评审委员会严格遴选，入选的优秀作品将于 8 月 31 日参加现场作品展示。其中，表现突出的作品将荣获学院设立的“AI探索院长奖”（AI Exploration Dean's Award）。"
+        },
+        {
+          question: "参赛形式：个人还是团体？",
+          answer: "两种形式均可。若以个人形式参赛，提交作品须为原课程项目的深化完善版，或基于课程项目拓展衍生的创新成果。请在项目报告中明确标注哪些内容为课程期间完成，哪些为课程结束后新增或改进；对于课程期间完成的部分，需鸣谢原团队其他成员的贡献。若以团队形式参赛，建议以原课程团队为基础组队，并在报告中详细说明每位成员的具体分工。如团队成员与原课程项目不一致，请补充说明新增成员的贡献及参与方式。如有任何疑问，请通过学院官方邮箱联系本次活动组委会。"
+        },
+        {
+          question: "可否同时申报多个项目（如同时提交 AIE1901 和 AIE1902 课程的项目）？",
+          answer: "不可以。请选择您认为最具代表性、最值得展示的一个项目进行申报。"
+        },
+        {
+          question: "是否必须与探索课小组成员共同组队？",
+          answer: "不强制。由于每位同学仅限参与一个项目，本次活动的组队方式允许一定灵活性。但需注意，跨组或重组可能对评审环节的公平性带来一定挑战，建议同学们以展示成果、交流学习为主，理性看待奖项结果。"
+        },
+        {
+          question: "项目介绍、海报及短视频应重点突出哪些方面（如实践过程、创新点或算法实现）？有无结构或内容上的硬性要求？",
+          answer: "没有固定格式或内容限制。我们鼓励同学们充分发挥创造力，自由设计展示内容，以最具吸引力和表现力的方式呈现项目亮点与个人成果。"
         }
       ],
       questionTitle: "还有其他问题？",
@@ -158,7 +174,7 @@ window.ACTIVITY_DATA = {
       eyebrow: "School of Artificial Intelligence, The Chinese University of Hong Kong, Shenzhen",
       title: "AI Exploration: Student Innovation Showcase",
       secondaryTitle: "AI探索：学生创新作品展示",
-      lead: "Making practical achievements visible and sustaining the spirit of exploration.",
+      lead: "Let practical achievements be seen, and let the spirit of exploration continue to grow",
       surveyButton: "Interest Survey",
       submitButton: "Submit Your Work"
     },
@@ -259,7 +275,7 @@ window.ACTIVITY_DATA = {
       button: "Submit Your Work"
     },
     signature: [
-      "Organizing Committee, AI Exploration: Student Innovation Showcase"
+      "The Organizing Committee for \"AI Exploration: Student Innovation Showcase\""
     ],
     footerBrand: "AI Exploration: Student Innovation Showcase",
     footerSchool: "School of Artificial Intelligence, The Chinese University of Hong Kong, Shenzhen",
@@ -287,6 +303,22 @@ window.ACTIVITY_DATA = {
         {
           question: "How will entries be evaluated, and what recognition will selected projects receive?",
           answer: "Entries will undergo rigorous selection by an expert review committee. Selected projects will participate in an on-site showcase on August 31, and outstanding projects will receive the AI Exploration Dean's Award established by the School."
+        },
+        {
+          question: "Can I participate individually or as part of a team?",
+          answer: "Both formats are accepted. Individual entries must be enhanced and refined versions of the original course project or innovative outcomes developed from it. The project report should clearly distinguish work completed during the course from additions or improvements made afterward, and acknowledge the contributions of other original team members to the course-stage work. For team entries, students are encouraged to retain the original course team and describe each member's specific responsibilities in detail. If the team differs from the original course project team, the report should explain the contributions and participation of any new members. If you have questions, please contact the organizing committee through the School's official email address."
+        },
+        {
+          question: "May I submit more than one project, such as projects from both AIE1901 and AIE1902?",
+          answer: "No. Please select the single project that you consider the most representative and most worthy of presentation."
+        },
+        {
+          question: "Must I form a team with the members of my original AI Exploration course group?",
+          answer: "No. Since each student may participate in only one project, the event allows some flexibility in team formation. However, cross-team formation or regrouping may create challenges for fairness during evaluation. Students are encouraged to focus on presenting their work and learning from one another, and to view award results reasonably."
+        },
+        {
+          question: "What should the project introduction, poster, and short video emphasize, such as the practical process, innovations, or algorithm implementation? Are there mandatory structural or content requirements?",
+          answer: "There is no fixed format or content restriction. Students are encouraged to exercise their creativity and design the presentation freely, highlighting the project's strengths and their individual achievements in the most engaging and expressive way possible."
         }
       ],
       questionTitle: "Have another question?",
