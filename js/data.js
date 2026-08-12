@@ -90,6 +90,7 @@ window.ACTIVITY_DATA = {
         },
         {
           label: "海报格式建议",
+          note: "学院将为所有入选海报提供统一打印服务，并安排对外展示。",
           items: [
             "提交单页 PDF 文件",
             "页面尺寸为 42 cm × 57 cm",
@@ -235,6 +236,7 @@ window.ACTIVITY_DATA = {
         },
         {
           label: "Suggested Poster Format",
+          note: "The School will provide centralized printing services for all selected posters and arrange for their public display.",
           items: [
             "Submit a single-page PDF file",
             "Use a page size of 42 cm × 57 cm",

@@ -20,6 +20,7 @@
         return `
           <div class="labeled-list">
             <p><strong>${esc(item.label)}</strong></p>
+            ${item.note ? `<p class="labeled-list-note">${esc(item.note)}</p>` : ""}
             <ul>${item.items.map(entry => `<li>${esc(entry)}</li>`).join("")}</ul>
           </div>
         `;
