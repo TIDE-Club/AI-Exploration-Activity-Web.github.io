@@ -76,7 +76,7 @@ window.ACTIVITY_DATA = {
     submission: {
       title: "提交您的作品",
       details: [
-        { label: "需提交的材料", text: "作者信息，项目报告（8页之内）、海报及短视频（5分钟之内）。" },
+        { label: "需提交的材料", text: "作者信息，项目报告（8页之内）、海报及短视频（5分钟之内）。提交的材料可以用中文或者英文。" },
         {
           label: "项目报告可能包含的内容（仅供参考）",
           items: [
@@ -161,6 +161,14 @@ window.ACTIVITY_DATA = {
         {
           question: "我是大一新生，感觉没什么创意作品可展示，怎么办？",
           answer: "别担心，这很正常。“AI探索”课程本身就是从零开始，带领大家一步步动手实践。你不需要做出多么复杂的东西——把课程项目做深、做透、讲清楚，就已经是一件很好的展示作品。不妨借这次机会，认真回顾一下自己的学习历程：你遇到了什么问题？你是怎么思考和解决的？你从中收获了什么？把这些记录下来，就是最好的展示内容。展示的重点不是“炫技”，而是你的投入、思考与成长。大一的“小作品”，也许就是你未来职业生涯的“第一块里程碑”。你的探索，值得被看见。"
+        },
+        {
+          question: "请问报告、海报、视频需要用英文还是中文？",
+          answer: "中英文都可以。"
+        },
+        {
+          question: "提交链接中显示报告十页，但是网站中报告显示最多八页，请问以哪个为准？",
+          answer: "请以网站为准，八页。"
         }
       ],
       questionTitle: "还有其他问题？",
@@ -242,7 +250,7 @@ window.ACTIVITY_DATA = {
     submission: {
       title: "Submit Your Work",
       details: [
-        { label: "Required Materials", text: "Author information, a project report of no more than 8 pages, a poster, and a short video of no more than 5 minutes." },
+        { label: "Required Materials", text: "Author information, a project report of no more than 8 pages, a poster, and a short video of no more than 5 minutes. Submission materials may be in either Chinese or English." },
         {
           label: "Possible Report Contents (For Reference Only)",
           items: [
@@ -327,6 +335,14 @@ window.ACTIVITY_DATA = {
         {
           question: "I am a first-year student and feel that I do not have any creative work to showcase. What should I do?",
           answer: "Do not worry; this is completely normal. The AI Exploration courses are designed to start from the basics and guide you step by step through hands-on practice. You do not need to create something highly complex. Developing your course project more deeply, understanding it thoroughly, and explaining it clearly already makes for a strong showcase entry. Use this opportunity to reflect carefully on your learning journey: What problems did you encounter? How did you think through and solve them? What did you learn along the way? Recording these experiences can become the best presentation content. The point of the showcase is not to demonstrate flashy techniques, but to show your effort, thinking, and growth. A small first-year project may become the first milestone in your future career. Your exploration deserves to be seen."
+        },
+        {
+          question: "Should the report, poster, and video be submitted in English or Chinese?",
+          answer: "Either English or Chinese is acceptable."
+        },
+        {
+          question: "The submission form states that the report may be up to 10 pages, while the website states a maximum of 8 pages. Which requirement should I follow?",
+          answer: "Please follow the website requirement: the report should be no more than 8 pages."
         }
       ],
       questionTitle: "Have another question?",
