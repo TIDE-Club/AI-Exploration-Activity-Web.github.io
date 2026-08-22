@@ -169,6 +169,10 @@ window.ACTIVITY_DATA = {
         {
           question: "提交链接中显示报告十页，但是网站中报告显示最多八页，请问以哪个为准？",
           answer: "请以网站为准，八页。"
+        },
+        {
+          question: "课程项目基于学校的 AI Station 开展，但课程结束后 AI Station 账号被收回，无法继续使用相关资源或录制展示视频，怎么办？此外，大模型也很难在本地电脑上训练或使用。",
+          answer: "请通过任课教授申请相应资源。"
         }
       ],
       questionTitle: "还有其他问题？",
@@ -343,6 +347,10 @@ window.ACTIVITY_DATA = {
         {
           question: "The submission form states that the report may be up to 10 pages, while the website states a maximum of 8 pages. Which requirement should I follow?",
           answer: "Please follow the website requirement: the report should be no more than 8 pages."
+        },
+        {
+          question: "The course project relies on the university's AI Station, but access is withdrawn after the course ends. What should I do if I can no longer use it or record a demonstration video? In addition, large language models are difficult to train or run on a local computer.",
+          answer: "Please apply for the necessary resources through your course instructor."
         }
       ],
       questionTitle: "Have another question?",
